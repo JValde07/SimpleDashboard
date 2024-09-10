@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centered">
+            <h1>Dashboard Overview</h1>
+        </div>
+
+        <div class="section">
+            <div class="data-section">
+                <h2>Daily Statistics</h2>
+                <p>Pages Processed: 123</p>
+            </div>
+            <div class="data-section">
+                <h2>Weekly Statistics</h2>
+                <p>Pages Processed: 123</p>
+            </div>
+            <div class="data-section">
+                <h2>Monthly Statistics</h2>
+                <p>Pages processed: 123</p>
+            </div>
+            <div class="data-section">
+                <h2>Total Paper Processed</h2>
+                <p>12345 Pages</p>
+            </div>
+            <div class="data-section">
+                <h2>Total Energy Consumed</h2>
+                <p>12345 kWh</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Energy Consumed per Hour</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div class="section">
+            <h2>Paper processed per year</h2>
+            <canvas id="barChart"></canvas>
+        </div>
+        <div class="section">
+            <h2>Time Online vs Time Offline</h2>
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
